@@ -1,0 +1,18 @@
+{
+  "validateVIPCall": {
+    "display_name": "Validate VIP Call",
+    "description": "Checks if a caller number is in the VIP list and returns the target queue ID",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "input": {
+          "type": "string"
+        }
+      },
+      "required": ["input"]
+    },
+    "response": {
+      "type": "object"
+    }
+  }
+}

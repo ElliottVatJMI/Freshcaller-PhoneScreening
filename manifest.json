@@ -1,0 +1,29 @@
+{
+  "platform-version": "3.0",
+  "modules": {
+    "call": {
+      "events": {
+        "onCallCreate": {
+          "handler": "onCallCreateHandler"
+        }
+      }
+    },
+    "common": {
+      "events": {
+        "onAppInstall": {
+          "handler": "onAppInstallHandler"
+        },
+        "onAppUninstall": {
+          "handler": "onAppUninstallHandler"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "24.11.0",
+    "fdk": "10.1.2"
+  },
+  "scripts": {
+    "fdk-unit-test": "vitest run --coverage"
+  }
+}

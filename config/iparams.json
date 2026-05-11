@@ -1,0 +1,20 @@
+{
+  "vip_numbers": {
+    "display_name": "VIP Phone Numbers (comma-separated)",
+    "description": "E.164 format, e.g. +12105986561,+12036978361",
+    "type": "text",
+    "required": true
+  },
+  "vip_queue_id": {
+    "display_name": "VIP Queue ID",
+    "description": "Freshcaller queue ID to route VIP calls to",
+    "type": "text",
+    "required": true
+  },
+  "api_key": {
+    "display_name": "Freshcaller API Key",
+    "type": "text",
+    "secure": true,
+    "required": true
+  }
+}
